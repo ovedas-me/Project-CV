@@ -12,7 +12,7 @@
     }
 
     h1 {
-      background-color: #c0ff14;
+      background-color: #6b9104;
       color: #fff;
       text-align: center;
       padding: 20px;
@@ -61,7 +61,7 @@
 
     .contact-info {
       text-align: center;
-      background-color: #d155f0;
+      background-color: #874099;
       color: #fff;
       padding: 10px;
     }
@@ -73,9 +73,24 @@
     .contact-info a:hover {
       color: #ffc107;
     }
+
+    /* Profile picture styling (square shape) */
+    .profile-pic {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 120px;   /* adjust size */
+      height: 120px;  /* fixed square */
+      object-fit: cover; /* ensures image fills square */
+      border-radius: 8px; /* slight rounded corners, remove if you want sharp edges */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
   </style>
 </head>
 <body>
+
+  <!-- Profile Picture -->
+  <img src="img.jpg" alt="Profile Picture" class="profile-pic">
 
   <h1>Ove Das Abir</h1>
   <div class="contact-info">
